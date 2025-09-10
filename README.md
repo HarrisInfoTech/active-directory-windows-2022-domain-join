@@ -133,13 +133,7 @@ To log in over RDP with the new domain account:
   - Your **user** under **Users**
   - Your **computer** under **Computers**
 
-```powershell
-# On client
-whoami
-# Expected: MYDFIR\yourUser
 
-nltest /dsgetdc:MYDFIR.local
-📸 Screenshots:
 
 
 🏁 Results
