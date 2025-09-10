@@ -53,7 +53,7 @@ I configured my own **Active Directory Domain Services (AD DS)** on **Windows Se
 ### Step 2 — Promote the server to a Domain Controller
 1. In **Server Manager**, click the **warning** flag → **Promote this server to a domain controller**
 2. Choose **Add a new forest**
-3. **Root domain name:** `MYDFIR.local`
+3. **Root domain name:** `**`
 4. Set the **DSRM** password
 5. **Next** through defaults (DNS/GC enabled) → **Install**
 6. The server **restarts** automatically
@@ -75,7 +75,7 @@ I configured my own **Active Directory Domain Services (AD DS)** on **Windows Se
 6. Finish the wizard
 
 📸 *Screenshots:*  
-![ADUC New User Wizard](./screenshots/aduc-new-user.png)  
+![ADUC New User Wizard](./screenshots/aduc-new-user1.png)  
 ![User Created](./screenshots/aduc-user-created.png)
 
 ---
